@@ -23,7 +23,7 @@ library(rmarkdown)    # You need this library to run this template.
 library(epuRate)      # Install with devtools: install_github("holtzy/epuRate", force=TRUE)
 ```
 <img src="http://www.icone-png.com/png/8/8247.png"/>
-```{r,echo=FALSE,warning=FALSE,message=FALSE}
+```{r}
 
 
 
