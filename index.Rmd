@@ -1,0 +1,37 @@
+---
+title: "Le lancer de dé"
+author: "[Thomas Rodriguez](https://github.com/holtzy)"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: "rdgz.thomas@gmail.com"
+output:
+  epuRate::epurate:
+    toc: TRUE
+    number_sections: FALSE
+    code_folding: "hide"
+---
+
+
+<br><br>
+
+
+
+***
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+library(tidyverse)
+library(rmarkdown)    # You need this library to run this template.
+library(epuRate)      # Install with devtools: install_github("holtzy/epuRate", force=TRUE)
+```
+<img src="http://www.icone-png.com/png/8/8247.png"/>
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+
+
+
+
+print("Le dé a été lancé et vous avez obtenu")
+
+x <- sample(1:6, 1)
+print(x)
+
+```
+
